@@ -30,7 +30,7 @@ calcInterface.question("Enter the first number: ", (firstInput) => {
         }
 
         calcInterface.question("Enter the second number: ", (secondInput) => {
-            const secondNumber = number(secondInput);
+            const secondNumber = Number(secondInput);
             console.log(secondNumber);
             if(isNaN(secondNumber)){
                 console.log("Invalid number provided");
