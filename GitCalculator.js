@@ -5,7 +5,7 @@ const readline = require("readline");
 const calcInterface = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
-    //prompt: "Calculator> ",
+    prompt: "Calculator> ",
 });
 
 const validOperators = [
